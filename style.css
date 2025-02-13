@@ -7,12 +7,16 @@ footer{
 background-color: #004494;
 font-family: Arial, Helvetica, sans-serif;
 color: white;
+display: flex;
+justify-content: center;
+}
+
+body {
+    margin: 0;
 }
 
 .section-container{
-height: 100px;
-min-width: 70%;
-
+    max-width: 80%;
 }
 
 a{
@@ -20,19 +24,15 @@ a{
     color: white;
 }
 
-body {
-    background-color: #004494;
-}
+
 
 .link-name-header{
-border-bottom: 0.25px solid white;
+border-bottom: 0.25px solid rgb(213, 211, 211);
 padding-bottom: 8px;
 
 }
 
-/* .clickable-link {
-    display: block;
-} */
+
 .link-container {
     display: flex;
     flex-direction: column;
@@ -48,16 +48,18 @@ padding-bottom: 8px;
 display: flex;
 flex-wrap: wrap;
 gap: 24px;
+margin-bottom: 32px;
 }
 
 .sonriga1{
 flex-grow: 1;
 flex-shrink: 0;
 flex-basis: 0;
+min-width: 300px;
 
 }
 
-ul {
+.list-simple {
     list-style-type: none;
     padding: 0;
 }
@@ -68,6 +70,33 @@ margin-bottom: 16px;
 }
 
 .upper-border{
-border-top: 0.25px solid white;
+border-top: 0.25px solid rgb(213, 211, 211);
 
+}
+
+.riga3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 32px;
+    padding-top: 32px;
+    
+}
+.sonriga3{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    min-width: 300px;
+
+
+}
+
+.common-list-styles {
+    margin: 0;
+    padding: 0;
+}
+
+.svg-contianer {
+    width: 16px;
+    height: auto;
 }
